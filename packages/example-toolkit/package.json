@@ -1,0 +1,24 @@
+{
+  "name": "toolkit-creator-example-toolkit",
+  "version": "0.0.0",
+  "description": "Example toolkit to demonstrate available functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dietergeerts/toolkit-creator.git"
+  },
+  "keywords": [
+    "toolkit",
+    "styleguide",
+    "library"
+  ],
+  "author": "Dieter Geerts <dieter@dworks.be> (https://dietergeerts.github.io/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dietergeerts/toolkit-creator/issues"
+  },
+  "homepage": "https://github.com/dietergeerts/toolkit-creator#readme"
+}
