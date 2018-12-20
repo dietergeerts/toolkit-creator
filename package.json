@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/dietergeerts/toolkit-creator/issues"
   },
-  "homepage": "https://github.com/dietergeerts/toolkit-creator#readme"
+  "homepage": "https://github.com/dietergeerts/toolkit-creator#readme",
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
 }
