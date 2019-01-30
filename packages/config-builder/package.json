@@ -1,10 +1,9 @@
 {
-  "name": "@toolkit-creator/example-toolkit",
+  "name": "@toolkit-creator/config-builder",
   "version": "0.0.0",
-  "description": "Example toolkit to demonstrate available functionality",
+  "description": "Core of toolkit-creator, which builds the webpack configuration",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,10 +21,14 @@
     "url": "https://github.com/dietergeerts/toolkit-creator/issues"
   },
   "homepage": "https://github.com/dietergeerts/toolkit-creator#readme",
+  "peerDependencies": {
+    "webpack": "^4"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-merge": "^4.2.1"
+  },
   "devDependencies": {
-    "@toolkit-creator/config-builder": "^0.0.0",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1",
-    "webpack-stylish": "^0.1.8"
+    "webpack": "^4.28.4"
   }
 }
